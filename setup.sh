@@ -17,6 +17,7 @@ apt-get install \
     libboost-system-dev \
     libboost-date-time-dev \
     openjdk-8-jdk \
+    maven \
     python-tk \
     python-wxgtk2.8 \
     python-matplotlib \
