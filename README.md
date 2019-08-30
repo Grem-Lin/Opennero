@@ -8,7 +8,7 @@ If you are Windows users, try to figure out yourself, or use GDC public machines
 ## Install instructions (Your own machine with root privileges)
 1 run the following commands:
 
-    git clone git@github.com:Grem-Lin/Opennero.git
+    git clone https://github.com/Grem-Lin/Opennero.git
     cd Opennero
     chmod +x setup.sh
     sudo setup.sh
