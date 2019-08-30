@@ -1,5 +1,8 @@
 # Opennero install instructions
-This instruction mainly focus on linux users. If you are MAC users, follow steps on Opennero wiki https://github.com/nnrg/opennero/wiki, it should work. If not, use GDC public machines. 
+This instruction mainly focus on linux users. 
+
+If you are MAC users, follow steps on Opennero wiki https://github.com/nnrg/opennero/wiki, it should work. If not, use GDC public machines. 
+
 If you are Windows users, try to figure out yourself, or use GDC public machines.
 
 ## Install instructions (Your own machine with root privileges)
@@ -10,8 +13,11 @@ If you are Windows users, try to figure out yourself, or use GDC public machines
     sudo setup.sh
     
 2 Download the corresponding linux version of binary file for Opennero:
+
  Ubuntu 14.04: https://drive.google.com/open?id=1sOjh7FapZA6RjmJCHDV4qZhsx9YtmD9X
+ 
  Ubuntu 16.04: https://drive.google.com/open?id=1b-ayq6zC_bXqvTw0LQSEwyWvynVAC-kV
+ 
  Ubuntu 18.04: https://drive.google.com/open?id=16jl3jzGHdvHLzOC7qUhnG42zgFEnQzZJ
 
 3 unzip the file and run: 
@@ -22,16 +28,21 @@ If you are Windows users, try to figure out yourself, or use GDC public machines
 There are 3 approaches:
 ### Go to GDC public lab and directly use public machines(RECOMMENDED):
 1 Download 18.04 version of binary file and unzip
+
 2 $ cd dist
+
 3 $ cd ./OpenNERO
 
 ### Using GDC machine remotely with ssh:
-1 ssh -X username@hostname.cs.utexas.edu (username: your cs account, hostname: CS host name https://apps.cs.utexas.edu/unixlabstatus/  )
+1 ssh -X username@hostname.cs.utexas.edu (username: your cs account, hostname: CS host name, you can refer to  https://apps.cs.utexas.edu/unixlabstatus/ to find available host name  )
+
 2 Download 18.04 version of binary file and copy fine into username@hostname.cs.utexas.edu:~
+
 3 $ cd dist
+
 4 $ cd ./OpenNERO
 
-Note: need to figure out how to set up ssh if your machine is not connected with internet or wifi in GDC 
+Note: you need to figure out how to set up ssh if your machine is not connected with internet or wifi in GDC. You can refer to 
 https://www.cs.utexas.edu/facilities-documentation/ssh-keys-cs-mac-and-linux
 
 ### Using GDC machine remotely with xpra:
