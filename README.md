@@ -5,8 +5,8 @@
 3. Ubuntu 18.04: 
 4. Windows and MAC: no support
 ## Install instructions(Your own machine with root privileges)
-    git clone 
-    cd ./Opennero
+    git clone git@github.com:Grem-Lin/Opennero.git
+    cd Opennero
     chmod +x setup.sh
     sudo setup.sh
     
