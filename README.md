@@ -65,3 +65,5 @@ Learn it by yourself with following steps:
 - after done:
   if multiple xpras run at the same time it won't work, so stop it with
     xpra stop :100
+
+Note: Don't install xpra if you have GPU Nvidia driver on your local machine, xpra related dependencies will conflict with Nvidia driver and destory your system.
