@@ -16,6 +16,10 @@ apt-get install \
     libboost-serialization-dev \
     libboost-system-dev \
     libboost-date-time-dev \
-    maven \
-    openjdk-8-jdk
-
+    openjdk-8-jdk \
+    python-tk \
+    python-wxgtk2.8 \
+    python-matplotlib \
+    python-scipy \
+    python-numpy \
+    python-imaging-tk
