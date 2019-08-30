@@ -36,7 +36,7 @@ There are 3 approaches:
 ### Using GDC machine remotely with ssh:
 1 ssh -X username@hostname.cs.utexas.edu (username: your cs account, hostname: CS host name, you can refer to  https://apps.cs.utexas.edu/unixlabstatus/ to find available host name  )
 
-2 Download 18.04 version of binary file and copy fine into username@hostname.cs.utexas.edu:~
+2 Download 18.04 version of binary file and copy file into username@hostname.cs.utexas.edu:~
 
 3 $ cd dist
 
