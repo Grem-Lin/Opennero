@@ -28,9 +28,6 @@ If you are Windows users, try to figure out yourself, or use GDC public machines
 There are 3 approaches:
 ### Go to GDC public lab and directly use public machines(RECOMMENDED):
 
-(Note: you need to figure out how to set up ssh if your machine is not connected with internet or wifi in GDC. You can refer to 
-https://www.cs.utexas.edu/facilities-documentation/ssh-keys-cs-mac-and-linux )
-
 1 Download 18.04 version of binary file and unzip
 
 2 $ cd dist
@@ -38,6 +35,10 @@ https://www.cs.utexas.edu/facilities-documentation/ssh-keys-cs-mac-and-linux )
 3 $ cd ./OpenNERO
 
 ### Using GDC machine remotely with ssh:
+
+(Note: you need to figure out how to set up ssh if your machine is not connected with internet or wifi in GDC. You can refer to 
+https://www.cs.utexas.edu/facilities-documentation/ssh-keys-cs-mac-and-linux )
+
 1 ssh -X username@hostname.cs.utexas.edu (username: your cs account, hostname: CS host name, you can refer to  https://apps.cs.utexas.edu/unixlabstatus/ to find available host name  )
 
 2 Download 18.04 version of binary file and copy file into username@hostname.cs.utexas.edu:~
