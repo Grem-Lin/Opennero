@@ -22,6 +22,7 @@ If you are Windows users, try to figure out yourself, or use GDC public machines
  Ubuntu 18.04: https://drive.google.com/open?id=16jl3jzGHdvHLzOC7qUhnG42zgFEnQzZJ
 
 3 unzip the file and run: 
+
     cd ./dist 
     ./OpenNERO
 
@@ -33,7 +34,7 @@ There are 3 approaches:
 
 2 $ cd dist
 
-3 $ cd ./OpenNERO
+3 $ ./OpenNERO
 
 ### Using GDC machine remotely with ssh:
 
@@ -46,7 +47,7 @@ https://www.cs.utexas.edu/facilities-documentation/ssh-keys-cs-mac-and-linux )
 
 3 $ cd dist
 
-4 $ cd ./OpenNERO
+4 $ ./OpenNERO
 
 ### Using GDC machine remotely with xpra:
 Learn it by yourself with following steps:
