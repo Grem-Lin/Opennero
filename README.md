@@ -27,6 +27,10 @@ If you are Windows users, try to figure out yourself, or use GDC public machines
 ## Install instructions (GDC public machine without root privileges)
 There are 3 approaches:
 ### Go to GDC public lab and directly use public machines(RECOMMENDED):
+
+(Note: you need to figure out how to set up ssh if your machine is not connected with internet or wifi in GDC. You can refer to 
+https://www.cs.utexas.edu/facilities-documentation/ssh-keys-cs-mac-and-linux )
+
 1 Download 18.04 version of binary file and unzip
 
 2 $ cd dist
@@ -42,11 +46,10 @@ There are 3 approaches:
 
 4 $ cd ./OpenNERO
 
-Note: you need to figure out how to set up ssh if your machine is not connected with internet or wifi in GDC. You can refer to 
-https://www.cs.utexas.edu/facilities-documentation/ssh-keys-cs-mac-and-linux
-
 ### Using GDC machine remotely with xpra:
 Learn it by yourself with following steps:
+
+(Note: Don't install xpra if you have GPU Nvidia driver on your local machine, xpra related dependencies will conflict with Nvidia driver and destory your system.)
 
 - install xpra on your local machine
 - "cshosts publinux" to find a list of linux hosts you can xpra to
@@ -66,4 +69,4 @@ Learn it by yourself with following steps:
   if multiple xpras run at the same time it won't work, so stop it with
     xpra stop :100
 
-Note: Don't install xpra if you have GPU Nvidia driver on your local machine, xpra related dependencies will conflict with Nvidia driver and destory your system.
+
