@@ -63,8 +63,6 @@ https://www.cs.utexas.edu/facilities-documentation/ssh-keys-cs-mac-and-linux )
 ### Using GDC machine remotely with xpra:
 Learn it by yourself with following steps:
 
-(Note: Don't install xpra if you have GPU Nvidia driver on your local machine, xpra related dependencies will conflict with Nvidia driver and destory your system.)
-
 - install xpra on your local machine
 - "cshosts publinux" to find a list of linux hosts you can xpra to
 - ssh eg. to "sorry.cs.utexas.edu"
