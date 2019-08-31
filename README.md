@@ -41,6 +41,14 @@ There are 3 approaches:
 (Note: you need to figure out how to set up ssh if your machine is not connected with internet or wifi in GDC. You can refer to 
 https://www.cs.utexas.edu/facilities-documentation/ssh-keys-cs-mac-and-linux )
 
+0 Setup ssh -X 
+ - adding '+iglx' to file /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf as follows:
+    [SeatDefaults] 
+    \# Dump core 
+    xserver-command=X -core +iglx
+ - Ctrl-Alt-F1 and relogin
+ - $ sudo service lightdm restart
+ 
 1 ssh -X username@hostname.cs.utexas.edu (username: your cs account, hostname: CS host name, you can refer to  https://apps.cs.utexas.edu/unixlabstatus/ to find available host name  )
 
 2 Download 18.04 version of binary file and copy file into username@hostname.cs.utexas.edu:~
