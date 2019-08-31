@@ -42,9 +42,12 @@ There are 3 approaches:
 https://www.cs.utexas.edu/facilities-documentation/ssh-keys-cs-mac-and-linux )
 
 0 Setup ssh -X 
- - adding '+iglx' to file /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf as follows:
+ - adding '+iglx' to file /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf as follows:    
+    
     [SeatDefaults] 
-    \# Dump core 
+    
+    \# Dump core
+    
     xserver-command=X -core +iglx
  - Ctrl-Alt-F1 and relogin
  - $ sudo service lightdm restart
