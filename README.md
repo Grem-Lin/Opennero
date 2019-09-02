@@ -1,9 +1,9 @@
 # Opennero install instructions
-This instruction mainly focus on linux users. 
+This instruction mainly focuses on linux users. 
 
 If you are MAC users, follow steps on Opennero wiki https://github.com/nnrg/opennero/wiki, it should work. If not, use GDC public machines. 
 
-If you are Windows users, try to figure out yourself, or use GDC public machines.
+If you are Windows users, try to install the OpenNERO yourself(we don't support windows installation), or use GDC public machines.
 
 ## Install instructions (Your own machine with root privileges)
 1 run the following commands:
