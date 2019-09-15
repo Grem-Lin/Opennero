@@ -12,7 +12,7 @@ If you are Windows users, try to install the OpenNERO yourself(we don't support 
     cd Opennero
     chmod +x setup.sh
     sudo setup.sh
-    
+  Note: if your linux is 18.04, you need to install python-wxgtk 3.0 instead of python-wxgtk2.8 as shown in setup.sh
 2 Download the corresponding linux version of binary file for Opennero:
 
  Ubuntu 14.04: https://drive.google.com/open?id=1sOjh7FapZA6RjmJCHDV4qZhsx9YtmD9X
