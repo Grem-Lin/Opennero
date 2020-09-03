@@ -36,8 +36,7 @@ Note that this Windows tutorial is also suitable for Linux and Mac users, but th
 
 1 Download 18.04 version of binary file  https://drive.google.com/open?id=16jl3jzGHdvHLzOC7qUhnG42zgFEnQzZJ and unzip
 
-2 $ cd dist
-
-3 $ ./OpenNERO
+    cd dist
+    ./OpenNERO
 
 
