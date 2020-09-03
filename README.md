@@ -1,6 +1,6 @@
 # Opennero installation instructions
 
-## Linux uers installation instructions (You need to have root privileges)
+## 1. Linux users installation instructions (You need to have root privileges)
 1 run the following commands:
 
     git clone https://github.com/Grem-Lin/Opennero.git
@@ -22,17 +22,17 @@
     cd ./dist 
     ./OpenNERO
 
-## MAC users installation instructions
+## 2. MAC users installation instructions
 If you are MAC users, follow steps on Opennero wiki https://github.com/nnrg/opennero/wiki, it should work. If not, use xpra (follow instructions for windows)
 
-## Windows users installation instructions (Using Xpra)
-Xpra is an open-source multi-platform persistent remote display server and client for forwarding applications and desktop screens. It works for Linux, MAC and Windows. See more details here: http://xpra.org/
+## 3. Windows users installation instructions (Using Xpra)
+OpenNERO only support linux and Mac system and it has graphics interface. You cannot only use ssh in Windows to run the OpenNERO remotely and thus you need to use xpra instead. Xpra is an open-source multi-platform persistent remote display server and client for forwarding applications and desktop screens. It works for Linux, MAC and Windows. You can find more details here: http://xpra.org/
 
-Please follow this tutorial to setup Opennero on Windows: https://docs.google.com/document/d/1Xxijp4Sehcsk5jA_i6nPAVpATz5xMIwREkeNqP9pX_I/edit?usp=sharing
+Please follow this tutorial to setup xpra and Opennero on Windows: https://docs.google.com/document/d/1Xxijp4Sehcsk5jA_i6nPAVpATz5xMIwREkeNqP9pX_I/edit?usp=sharing
 
-Note that this Windows tutorial is also suitable for Linux and Mac users, but the foregoing instructions are much more easier. 
+Note that this Windows tutorial is also suitable for Linux and Mac users, but the foregoing instructions in first 2 sections are much more easier. 
 
-## Installation instructions for those who can physically access to GDC public machines (currently not available due to COVID-19)
+## 4. Installation instructions for those who can physically access to GDC public machines (currently not available due to COVID-19)
 
 1 Download 18.04 version of binary file  https://drive.google.com/open?id=16jl3jzGHdvHLzOC7qUhnG42zgFEnQzZJ and unzip
 
